@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:alpha="0.8"
+    tools:context="com.mawaqaa.alrai.activity.SettingActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/edit_profile_TXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.6"
+                    android:gravity="right"
+                    android:text="@string/setting_edit_profile"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight=".4"
+                    android:src="@drawable/edit_profile2x"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/show_profile_TXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.6"
+                    android:gravity="right"
+                    android:text="@string/setting_show_profile"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight=".4"
+                    android:src="@drawable/feld_user_name2x"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/change_password_TXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.6"
+                    android:gravity="right"
+                    android:text="@string/setting_change_password"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight=".4"
+                    android:src="@drawable/change_password2x"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/favorite_menu_TXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.6"
+                    android:gravity="right"
+                    android:text="@string/setting_favorite_menu"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight=".4"
+                    android:padding="5dp"
+                    android:src="@drawable/favorite_category2x" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/important_news_TXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.6"
+                    android:gravity="right"
+                    android:text="@string/setting_important_news"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight=".4"
+                    android:src="@drawable/save_icon2x"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/logout_TXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.6"
+                    android:gravity="right"
+                    android:text="@string/setting_logout"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight=".4"
+                    android:src="@drawable/logout_icon2x"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

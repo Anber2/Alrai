@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mawaqaa.alrai.activity.EditProfileActivity"
+    android:background="@color/Black"
+    android:alpha="0.8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/setting_edit_profile"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edit_profile_name_etxt"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1.6"
+                android:background="@color/White"
+                android:gravity="center"
+                android:hint="@string/login_name"
+                android:inputType="text"
+                android:textColorHint="@color/Black" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.4"
+                android:background="@color/red"
+                android:padding="5dp"
+                android:src="@drawable/feld_user_name2x" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edit_profile_email_etxt"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1.6"
+                android:background="@color/White"
+                android:gravity="center"
+                android:hint="@string/email_txt"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/Black"
+                android:editable="false"
+                android:focusable="false"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.4"
+                android:background="@color/red"
+                android:padding="5dp"
+                android:src="@drawable/feld_email_icon2x" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/edit_profile_submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn2x"
+                android:text="@string/submit_btn_txt"
+                android:textColor="@color/White"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

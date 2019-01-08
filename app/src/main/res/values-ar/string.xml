@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">الراي</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_news">الاخبار</string>
+    <string name="toast_error_message">حدث خطأ يرجى المحاولة لاحقا </string>
+    <string name="toast_no_saved_news">لا يوجد اخبار محفوظة الان </string>
+    <string name="toast_no_news">لا يوجد اخبار </string>
+    <string name="toast_update_succsess">تم التعديل بنجاح</string>
+    <string name="toast_reset_pass_succsess">تم ارسال طلبك بنجاح </string>
+    <string name="toast_reset_pass_fail">حدث خطأ ! يرجى المحاولة لاحقا </string>
+    <string name="toast_login_sucss">تم تسجيل الدخول بنجاح </string>
+    <string name="toast_login_fail">الايميل او كلمة السر غير صحيحة</string>
+    <string name="toast_save_news_sucss">تم حفظ الخبر بنجاح</string>
+    <string name="toast_register_sucss">تم تسجيللك بنجاح</string>
+    <string name="toast_register_fail">هذا الايميل مسجل من قبل </string>
+    <string name="toast_no_sub_cat">لا يوجد اخبار في هذا القسم</string>
+
+
+
+    <string name="facebook_app_id">1793316997649572</string>
+
+
+    <string name="important_news_txt">الاخبار المهمة</string>
+    <string name="watch_now_txt">البث المباشر</string>
+
+    <string name="home_page_txt">الصفحة الرئيسية</string>
+    <string name="archeve_txt">الأرشيف</string>
+
+
+    <string name="login_name">الاسم</string>
+    <string name="login_password">كلمة السر</string>
+    <string name="login_password_confirm">تاكيد كلمة السر</string>
+    <string name="login_btn_txt">تسجيل الدخول </string>
+
+    <string name="login_forget_pass_txt">هل نسيت كلمة المرور ؟</string>
+    <string name="login_create_account_txt">إنشاء حساب </string>
+    <string name="login_create_account_other_txt">لا تمتلك حساب ؟ انشاء حساب </string>
+
+    <string name="forget_password_txt">تذكر كلمة المرور</string>
+    <string name="submit_btn_txt">موافق </string>
+    <string name="email_txt">الايميل </string>
+
+    <string name="current_password_txt">كلمة السر الحالية </string>
+    <string name="new_password_txt">كلمة السر الجديدة</string>
+    <string name="confirm_new_password_txt"> تاكيد كلمة السر الجديدة </string>
+
+    <string name="name_validation">الرجاء التاكد من الاسم </string>
+    <string name="email_validation">الرجاء التاكد من الايميل </string>
+    <string name="password_validation">الرجاء التاكد من الرقم السري </string>
+    <string name="confirm_pass_validation">الرجاء التاكد من تاكيد الرقم السري </string>
+
+    <string name="change_password_successfully">تم تغير كلمة السر بنجاح </string>
+    <string name="change_password_failed">كلمة السر الحالية غير صحيحية  </string>
+
+    <string name="setting_edit_profile">تعديل الملف الشخصي</string>
+    <string name="setting_show_profile">عرض الملف الشخصي</string>
+    <string name="setting_change_password">تغير كلمة المرور</string>
+    <string name="setting_favorite_menu">القائمة المفضلة</string>
+    <string name="setting_important_news">الاخبار المهمة</string>
+    <string name="setting_logout">تسجيل الخروج </string>
+    <string name="setting_logout_text">هل انت متاكد من تسجيل الخروج ؟؟ </string>
+
+    <string name="setting_logout_yes">نعم </string>
+    <string name="setting_logout_no">لا </string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="hello"><![CDATA[<b>The Awesome Sliding Up Panel</b><br/> Brought to you by<br/><a href="http://umanoapp.com">http://umanoapp.com</a>]]></string>
+    <string name="follow"><![CDATA[Follow us<br/>on <a href="http://twitter.com/umanoapp">Twitter</a>]]></string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_register">التسجيل </string>
+    <string name="title_activity_setting">الاعدادات </string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_view_profile">المعلومات الشخصية </string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_news_details">NewsDetailsActivity</string>
+    <string name="title_activity_saved_news">الاخبار المفضلة </string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_alnasher">الناشر</string>
+    <string name="title_activity_newspaper">الأخبار</string>
+    <string name="title_activity_rima">ريما</string>
+
+    <string name="title_activity_alnasher_change1">تغيير</string>
+    <string name="title_activity_alnasher_change2">عنوان</string>
+    <string name="title_activity_alnasher_subscribe1">اشتراك</string>
+    <string name="title_activity_alnasher_subscribe2">أو تجديد</string>
+    <string name="title_activity_alnasher_complanings1">الشكاوى</string>
+    <string name="title_activity_alnasher_complanings2">الخاصة بك</string>
+    <string name="title_activity_alnasher_pose1">تعليق</string>
+    <string name="title_activity_alnasher_pose2">اشتراكي</string>
+
+</resources>

@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoOverlay="true"
+        sothree:umanoPanelHeight="100dp"
+        sothree:umanoParallaxOffset="100dp"
+        sothree:umanoScrollableView="@+id/list"
+        sothree:umanoShadowHeight="4dp">
+
+
+        <!-- MAIN CONTENT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- <ListView
+                android:id="@+id/top_news_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp">
+
+            </ListView>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_top_news_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="100dp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+        <!-- SLIDING LAYOUT -->
+        <LinearLayout
+            android:id="@+id/dragView"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:background="@color/Black"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/alrai_menu_BTN"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/logo2x"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/important_news_txt"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/menu_button_active2x"
+
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/White"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/watch_now_txt"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/White"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/news_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2.1"
+                android:background="@color/Black"
+                android:gravity="top"
+                android:numColumns="2" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:background="@color/Black"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/saved_news_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="55dp"
+                    android:background="@drawable/footer_save_icon3x"
+                    android:gravity="center"
+
+                    />
+
+                <Button
+                    android:id="@+id/news_setting_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="55dp"
+                    android:background="@drawable/footer_setting_icon3x"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</LinearLayout>

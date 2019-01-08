@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@color/Black"
+    android:orientation="vertical"
+    tools:context="com.mawaqaa.alrai.activity.RegisterActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/register_name_etxt"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.6"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:hint="@string/login_name"
+                    android:inputType="text"
+                    android:textColorHint="@color/Black" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.4"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:src="@drawable/feld_user_name2x" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/register_email_etxt"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.6"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:hint="@string/email_txt"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/Black" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.4"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:src="@drawable/feld_email_icon2x" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/register_password_etxt"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.6"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:hint="@string/login_password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/Black" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.4"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:src="@drawable/feld_pass_icon_2x" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/register_confirm_password_etxt"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.6"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:hint="@string/login_password_confirm"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/Black" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.4"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:src="@drawable/feld_conform_password2x" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/register_submit_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn2x"
+                    android:text="@string/submit_btn_txt"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

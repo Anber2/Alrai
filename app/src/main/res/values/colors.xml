@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ED1F24</color>
+    <color name="colorPrimaryDark">#ED1F24</color>
+    <color name="colorAccent">#ED1F24</color>
+
+    <color name="Silver">#e5e5e5</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="md__transparent_P2">#323331</color>
+    <color name="md__defaultBackground">#FF555555</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#ED1F24</color>
+    <color name="Blue">#dcdcdc</color>
+    <color name="Kohly">#323046</color>
+    <color name="Kohlbluey">#210B61</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="online_green_normal">#207903</color>
+    <color name="online_green_pressed">#20aa03</color>
+    <color name="background_tabs">#ccd5e5</color>
+
+</resources>
